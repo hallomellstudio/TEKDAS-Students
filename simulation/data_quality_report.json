@@ -1,0 +1,19 @@
+{
+  "customers_rows": 8000,
+  "orders_rows": 25000,
+  "products_rows": 140,
+  "monthly_rows": 75,
+  "customer_churn_rate_pct": 8.94,
+  "order_return_rate_pct": 8.08,
+  "orders_missing_rating_pct": 63.0,
+  "delivered_orders": 20497,
+  "delivered_revenue_usd": 2585126.5,
+  "product_summary_matches_non_cancelled_revenue": true,
+  "monthly_summary_matches_delivered_revenue": true,
+  "monthly_return_rate_is_constant_zero": true,
+  "note": "monthly_revenue.csv represents delivered-order revenue; therefore its return_rate field is zero. Use orders.csv when analyzing returns.",
+  "snapshot_date": "2026-04-01",
+  "train_rows": 6400,
+  "test_rows": 1600,
+  "feature_count_before_one_hot": 21
+}
